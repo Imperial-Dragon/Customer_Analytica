@@ -1,0 +1,7 @@
+git add .
+
+git commit -nm "some bug fix"
+
+git push origin master
+
+git push heroku master
