@@ -22,7 +22,7 @@ and transaction history.
  'Backend' folder cotains the code for REST API written in NodeJS.
  
  Insrtuctions to run :
-    To run Multi Label Prediction
-      python3 multi_label_prediction.py
+    To run Multi Label Prediction:
+      'python3 multi_label_prediction.py'
     To run k-means
-      python3 kmeansClustering.py
+      'python3 kmeansClustering.py'
