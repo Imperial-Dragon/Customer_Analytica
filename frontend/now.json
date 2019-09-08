@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "customer-analytica",
+  "public": false,
+  "builds": {
+    "env": {
+      "VARIABLE_NAME": "@port"
+    }
+  },
+  "routes": [
+    { "src": "/api/.*", "dest": "/api/server.js" },
+    { "src": "^/static/(.*)", "dest": "/static/$1" },
+    { "src": ".*", "dest": "/index.html" }
+  ]
+}
