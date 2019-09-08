@@ -21,7 +21,7 @@ and transaction history.
  'Frontend' folder contains the code for frontend web application written in ReactJS.
  'Backend' folder cotains the code for REST API written in NodeJS.
  
- **Insrtuctions to run : **
+ Insrtuctions to run :
     To run Multi Label Prediction
       python3 multi_label_prediction.py
     To run k-means
